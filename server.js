@@ -25,11 +25,14 @@ const server = new ApolloServer({
     // tracing: true,
 });
 
-// exports.graphqlHandler = server.createHandler();
-exports.graphqlHandler = function (event, context, callback) {
-    const callbackFilter = function (error, output) {
-        output.headers['Access-Control-Allow-Origin'] = '*';
-        callback(error, output);
-    };
-    server.createHandler()(event, context, callbackFilter);
-};
+exports.graphqlHandler = server.createHandler({
+    cors: {
+        origin: '*',
+        methods: 'POST',
+        allowedHeaders: [
+            'Content-Type',
+            'Origin',
+            'Accept'
+        ]
+    }
+});
