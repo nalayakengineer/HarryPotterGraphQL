@@ -41,3 +41,4 @@ functions:
           path: graphql
           method: post
           cors: true
+          private: true
