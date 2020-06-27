@@ -7,7 +7,6 @@ This is based on the RESTAPI of Harry Potter available at:<br />
 
 
 
-
 ### Samples:
 
 Query:
