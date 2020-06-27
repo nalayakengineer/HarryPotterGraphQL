@@ -27,11 +27,11 @@ plugins:
 custom:
   serverless-offline:
     port: 4000
-  webpackIncludeModules: true
-  webpack:
-    webpackConfig: "webpack.config.js"
-    includeModules: true
-    packager: yarn
+  # webpackIncludeModules: true
+  # webpack:
+  #   webpackConfig: "webpack.config.js"
+  #   includeModules: true
+  #   packager: yarn
 
 functions:
   graphql:
@@ -40,5 +40,9 @@ functions:
       - http:
           path: graphql
           method: post
-          cors: true
+          cors:
+            origin: "*"
+            headers:
+              - Content-Type
+              - x-Api-Key
           private: true

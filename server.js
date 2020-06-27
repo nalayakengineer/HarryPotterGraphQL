@@ -9,10 +9,10 @@ const server = new ApolloServer({
         console.log(error);
         return error;
     },
-    // formatResponse: response => {
-    //     console.log(response);
-    //     return response;
-    // },
+    formatResponse: response => {
+        console.log(response);
+        return response;
+    },
     context: ({ event, context }) => ({
         headers: event.headers,
         functionName: context.functionName,
@@ -25,4 +25,11 @@ const server = new ApolloServer({
     // tracing: true,
 });
 
-exports.graphqlHandler = server.createHandler();
+// exports.graphqlHandler = server.createHandler();
+exports.graphqlHandler = function (event, context, callback) {
+    const callbackFilter = function (error, output) {
+        output.headers['Access-Control-Allow-Origin'] = '*';
+        callback(error, output);
+    };
+    server.createHandler()(event, context, callbackFilter);
+};
