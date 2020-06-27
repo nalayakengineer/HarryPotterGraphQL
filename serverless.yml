@@ -1,0 +1,43 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+
+service: harrygraphql
+# app and org for use with dashboard.serverless.com
+app: apollo-lambda
+org: bhushanbharat
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  # you can overwrite defaults here
+  stage: dev
+  region: ap-south-1
+  apiKeys:
+    - harryApi
+  apiGateway:
+    apiKeySourceType: HEADER
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+  - serverless-plugin-include-dependencies
+
+custom:
+  serverless-offline:
+    port: 4000
+  webpackIncludeModules: true
+  webpack:
+    webpackConfig: "webpack.config.js"
+    includeModules: true
+    packager: yarn
+
+functions:
+  graphql:
+    handler: server.graphqlHandler
+    events:
+      - http:
+          path: graphql
+          method: post
+          cors: true

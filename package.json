@@ -1,0 +1,38 @@
+{
+  "name": "harryGraphQL",
+  "version": "1.0.0",
+  "description": "GraphQL api for HarryPotter",
+  "main": "server.js",
+  "author": "bharatbhushan",
+  "license": "MIT",
+  "scripts": {
+    "start": "serverless offline start",
+    "deploy-live": "serverless deploy"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.2.2",
+    "aws-xray-sdk": "^3.1.0",
+    "babel-polyfill": "^6.26.0",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.192.0",
+    "babel-plugin-source-map-support": "^2.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.4",
+    "env-cmd": "^5.0.0",
+    "faker": "^4.1.0",
+    "imports-loader": "^0.7.1",
+    "jsonfile": "^4.0.0",
+    "serverless-offline": "^3.15.3",
+    "serverless-plugin-include-dependencies": "^4.1.0",
+    "serverless-webpack": "^5.3.0",
+    "webpack": "^4.43.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
