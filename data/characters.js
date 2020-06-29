@@ -2,7 +2,7 @@ const characters = [
     {
         "_id": "5a0fa4daae5bc100213c232e",
         "name": "Hannah Abbott",
-        "role": "student",
+        "role": "Student",
         "house": "Hufflepuff",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -53,7 +53,7 @@ const characters = [
     {
         "_id": "5a0fa648ae5bc100213c2332",
         "name": "Katie Bell",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "Lord Voldemort",
@@ -138,7 +138,7 @@ const characters = [
     {
         "_id": "5a0fa86dae5bc100213c233a",
         "name": "Susan Bones",
-        "role": "student",
+        "role": "Student",
         "house": "Hufflepuff",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -152,7 +152,7 @@ const characters = [
     {
         "_id": "5a0fa8a6ae5bc100213c233b",
         "name": "Terry Boot",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -166,7 +166,7 @@ const characters = [
     {
         "_id": "5a107e1ae0686c0021283b19",
         "name": "Lavender Brown",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "rat",
@@ -181,7 +181,7 @@ const characters = [
     {
         "_id": "5a107e4ae0686c0021283b1a",
         "name": "Millicent Bulstrode",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -598,7 +598,7 @@ const characters = [
     {
         "_id": "5a1097d53dc2080021cd8769",
         "name": "Marietta Edgecombe",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -650,7 +650,7 @@ const characters = [
     {
         "_id": "5a1098bd3dc2080021cd876d",
         "name": "Justin Finch-Fletchley",
-        "role": "student",
+        "role": "Student",
         "house": "Hufflepuff",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "Lord Voldemort ",
@@ -665,7 +665,7 @@ const characters = [
     {
         "_id": "5a1098fd3dc2080021cd876e",
         "name": "Seamus Finnigan",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "banshee",
@@ -680,7 +680,7 @@ const characters = [
     {
         "_id": "5a1099353dc2080021cd876f",
         "name": "Marcus Flint",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -780,7 +780,7 @@ const characters = [
     {
         "_id": "5a109a553dc2080021cd8777",
         "name": "Anthony Goldstein",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -805,7 +805,7 @@ const characters = [
     {
         "_id": "5a109aa03dc2080021cd8779",
         "name": "Gregory Goyle",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -819,7 +819,7 @@ const characters = [
     {
         "_id": "5a109af13dc2080021cd877a",
         "name": "Hermione Granger",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "wand": "Vine wood, 10 3/4\", dragon heartstring",
@@ -954,7 +954,7 @@ const characters = [
     {
         "_id": "5a109cb83dc2080021cd8784",
         "name": "Angelina Johnson",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -968,7 +968,7 @@ const characters = [
     {
         "_id": "5a109cd33dc2080021cd8785",
         "name": "Lee Jordan",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "River",
@@ -1120,7 +1120,7 @@ const characters = [
     {
         "_id": "5a109e543dc2080021cd8790",
         "name": "Neville Longbottom",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "wand": "Cherry, 13\", unicorn hair",
@@ -1136,7 +1136,7 @@ const characters = [
     {
         "_id": "5a109e943dc2080021cd8791",
         "name": "Luna Lovegood",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "Loony Lovegood",
@@ -1197,7 +1197,7 @@ const characters = [
     {
         "_id": "5a109f8b3dc2080021cd8795",
         "name": "Draco Malfoy",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "wand": "Hawthorn, 10\", unicorn hair",
@@ -1264,7 +1264,7 @@ const characters = [
     {
         "_id": "5a1223720f5ae10021650d6f",
         "name": "Ernest Macmillan",
-        "role": "student",
+        "role": "Student",
         "house": "Hufflepuff",
         "school": "Hogwarts Academy of Witchcraft and Wizardry",
         "alias": "Ernie",
@@ -1312,7 +1312,7 @@ const characters = [
     {
         "_id": "5a1225640f5ae10021650d72",
         "name": "Theodore Nott",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -1341,7 +1341,7 @@ const characters = [
     {
         "_id": "5a1225e30f5ae10021650d74",
         "name": "Pansy Parkinson",
-        "role": "student",
+        "role": "Student",
         "house": "Slytherin",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -1355,7 +1355,7 @@ const characters = [
     {
         "_id": "5a12260f0f5ae10021650d75",
         "name": "Padma Patil",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -1369,7 +1369,7 @@ const characters = [
     {
         "_id": "5a1226520f5ae10021650d76",
         "name": "Parvati Patil",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "mummy",
@@ -1474,7 +1474,7 @@ const characters = [
     {
         "_id": "5a12292a0f5ae10021650d7e",
         "name": "Harry Potter",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "The Boy Who Lived",
@@ -1800,7 +1800,7 @@ const characters = [
     {
         "_id": "5a12333f0f5ae10021650d96",
         "name": "Zacharias Smith",
-        "role": "student",
+        "role": "Student",
         "house": "Hufflepuff",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -1829,7 +1829,7 @@ const characters = [
     {
         "_id": "5a1233ff0f5ae10021650d98",
         "name": "Alicia Spinnet",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
 
@@ -1868,7 +1868,7 @@ const characters = [
     {
         "_id": "5a1234cb0f5ae10021650d9b",
         "name": "Dean Thomas",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "severed hand walking on it's own",
@@ -2076,7 +2076,7 @@ const characters = [
     {
         "_id": "5a1239130f5ae10021650daa",
         "name": "Ginevra Weasley",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "Ginny",
@@ -2091,7 +2091,7 @@ const characters = [
     {
         "_id": "5a12393d0f5ae10021650dab",
         "name": "Molly Weasley",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "boggart": "corpses of her family",
@@ -2106,7 +2106,7 @@ const characters = [
     {
         "_id": "5a12395f0f5ae10021650dac",
         "name": "Percy Weasley",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "ministryOfMagic": false,
@@ -2119,7 +2119,7 @@ const characters = [
     {
         "_id": "5a1239c80f5ae10021650dad",
         "name": "Ronald Weasley",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "Ron",
@@ -2136,7 +2136,7 @@ const characters = [
     {
         "_id": "5a1239f10f5ae10021650dae",
         "name": "Oliver Wood",
-        "role": "student",
+        "role": "Student",
         "house": "Gryffindor",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "ministryOfMagic": false,
@@ -2439,7 +2439,7 @@ const characters = [
     {
         "_id": "5a123e450f5ae10021650dc8",
         "name": "Myrtle Warren",
-        "role": "student",
+        "role": "Student",
         "house": "Ravenclaw",
         "school": "Hogwarts School of Witchcraft and Wizardry",
         "alias": "Moaning Myrtle",

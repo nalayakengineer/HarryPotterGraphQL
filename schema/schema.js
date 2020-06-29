@@ -38,8 +38,9 @@ type Spells {
 
 input characterInput {
   name: String
-  id: ID
+  _id: ID
   house: String
+  role: String
 }
 
 type Query {

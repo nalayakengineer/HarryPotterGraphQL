@@ -9,8 +9,11 @@ const character = (_, args) => {
     if (args.input.role) {
         return characters.filter(character => character.role === args.input.role)
     }
-    if (args.input.alias) {
-        return characters.filter(character => character.alias === args.input.alias)
+    if (args.input.house) {
+        return characters.filter(character => character.house === args.input.house)
+    }
+    if (args.input.id) {
+        return characters.filter(character => character.id === args.input.id)
     }
     var character = characters[Math.floor(Math.random() * characters.length)]
     return [character]
