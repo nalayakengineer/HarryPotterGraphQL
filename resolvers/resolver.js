@@ -3,14 +3,14 @@ import houses from '../data/houses'
 import spells from '../data/spells'
 
 const character = (_, args) => {
-    if (args.name) {
-        return characters.filter(character => character.name === args.name)
+    if (args.input.name) {
+        return characters.filter(character => character.name === args.input.name)
     }
-    if (args.role) {
-        return characters.filter(character => character.role === args.role)
+    if (args.input.role) {
+        return characters.filter(character => character.role === args.input.role)
     }
-    if (args.alias) {
-        return characters.filter(character => character.alias === args.alias)
+    if (args.input.alias) {
+        return characters.filter(character => character.alias === args.input.alias)
     }
     var character = characters[Math.floor(Math.random() * characters.length)]
     return [character]

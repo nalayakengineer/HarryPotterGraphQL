@@ -43,7 +43,7 @@ input characterInput {
 }
 
 type Query {
-  character(name: String,role: String, alias: String): [Character]!
+  character(input: characterInput): [Character]!
   house(name: String): [Houses]!
   sortingHat: String!
   randomSpell: Spells!
